@@ -1,0 +1,11 @@
+displayName: "test traefik log Plugin v2"
+type: middleware
+import: github.com/jake-bcn/testtraefikgolog
+
+
+summary: "Custom middleware for specific use case"
+
+testData:
+  logRequest: true
+  logResponse: true
+  logHeaders: true
